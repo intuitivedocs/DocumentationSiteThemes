@@ -1,0 +1,31 @@
+maintitle: Development Team Process Documentation
+title: Intuitive Systems Development Team Process Documentation
+email: support@intuitivesystems.co.uk
+description: 
+baseurl: "/DevelopmentTeamProcess"
+url: "http://intuitivedocs.github.io/DevelopmentTeamProcess/"
+fixedNav: 'false'
+theme: grey
+
+# collections
+collections:
+     content:
+        output: true
+
+defaults:
+-
+  scope:
+    path: ""
+    type: "content"
+  values:
+    layout: "post"
+
+
+# Build settings
+permalink: :title.html
+markdown: kramdown
+include: [_pages,categories]
+exclude: [_site, CHANGELOG.md, LICENSE, README.md]
+sass:
+  style: compressed
+
