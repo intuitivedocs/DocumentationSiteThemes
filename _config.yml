@@ -1,9 +1,9 @@
-maintitle: Development Team Process Documentation
-title: Intuitive Systems Development Team Process Documentation
+maintitle: Development Team Documentation Theme
+title: Intuitive Systems Documentation Theme
 email: support@intuitivesystems.co.uk
 description: 
-baseurl: "/DevelopmentTeamProcess"
-url: "http://intuitivedocs.github.io/DevelopmentTeamProcess/"
+baseurl: "/DocumentationSiteThemes"
+url: "http://intuitivedocs.github.io/DocumentationSiteThemes/"
 fixedNav: 'false'
 theme: grey
 
