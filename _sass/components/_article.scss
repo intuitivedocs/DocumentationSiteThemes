@@ -4,6 +4,22 @@
 
 .c-article {
 
+.contents-post {
+  
+  .post {
+  padding-left:1rem;
+  }
+
+  .subpost {
+  padding-left:3.5rem;
+  }
+
+}
+
+
+
+
+
 .c-main {
   padding-top:2rem;
 }
@@ -74,6 +90,7 @@
     padding: 2.5rem;
     background: $c__light-grey;
   }
+
 }
 
 @media (max-width: 50rem) {
