@@ -1,6 +1,3 @@
----
-title:  "Jekyll"
----
 Jekyll is the software we use to convert markdown files into our documentation websites.
 
 Each documentation website has its own github repository. The github username of the repository owner forms the first part of the url - “intuitivedocs”, and the repository name forms the third part of the url - “DevelopmentTeamDocumentation”.
