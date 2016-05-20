@@ -40,6 +40,26 @@
   border-radius:0.5rem;
   display:table-cell;
 
+  h1 {
+  padding-top:2.5rem;
+
+  .c-header__title {
+  padding-top:0;
+  }
+  }
+
+  h2 {
+  padding-top:2rem;
+  }
+
+  h3 {
+  padding-top:1.75rem;
+  }
+
+  h4 {
+  padding-top:1.5rem;
+  }
+
   .highlighter-rouge {
   display:block;
   }
