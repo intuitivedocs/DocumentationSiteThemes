@@ -1,0 +1,53 @@
+<div class="Contents-collection">
+  <p>Test0</p>
+  {% for Contents in site.data.contents %}
+  <p>Test1</p>
+    {% for Section in Contents %}
+  <p>Test2</p>
+      <ul>
+        { Section.SectionTitle }
+      </ul>
+
+    {% endfor %}
+
+  {% endfor %}
+</div>
+
+
+
+
+
+
+
+
+<!--
+
+{% if collection.label != 'posts' %}
+     <div class="catbloc" id="{{ category | remove:' ' }}">
+          
+            <ul class="sidebar-post">
+
+            {% assign sortedPosts = collection.docs| sort: 'url' %}
+            {% for post in sortedPosts %}    
+
+            {% assign listclass = 'post' %}
+            {% assign spliturl = post.url | split: '/' %}
+            {% if spliturl.size == 4 %}
+                {% assign listclass = 'subpost' %}
+            {% elsif  spliturl.size == 5 %}
+                {% assign listclass = 'subsubpost' %}
+            {% elsif  spliturl.size == 6 %}
+                {% assign listclass = 'subsubsubpost' %}    
+            {% endif %}   
+                   <li class="{{listclass}} sidebar-subpost">
+                        <a href="{{ post.url | prepend: site.baseurl  }}">
+                         {{post.title}}
+                        </a>
+                  </li>  
+              {% endfor %}          
+               </ul>
+            </div>
+
+     {% endif %}
+
+-->

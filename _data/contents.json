@@ -1,0 +1,20 @@
+{
+  "Contents": {
+    "Section": {
+      "SectionTitle": "Development Process",
+      "Icon": "documention",
+      "Article": [
+        {
+          "Name": "1. Specifications",
+          "Path": "/DevelopmentProcess/Specifications"
+        },
+        {
+          "-type": "subarticle",
+          "-tags": "new",
+          "Name": "1.1 Writing BDD",
+          "Path": "/DevelopmentProcess/WritingBDD"
+        }
+      ]
+    }
+  }
+}
