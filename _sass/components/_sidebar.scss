@@ -46,22 +46,15 @@
 				
 				}
 
-				.icon-clipboard {
-
-				&:before {
-
+				&.icon-clipboard:before {
 				    background: url(https://stripe.com/favicon.ico);
 				}
+				
+
+				&.icon-tick:before {
+					background: none;
 				}
-
-				.icon-tick {
-
-				&:before {
-
-				background: none;
-
-				}
-				}
+				
 
 				}
 
