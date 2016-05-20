@@ -6,6 +6,7 @@ baseurl: "/DocumentationSiteThemes"
 url: "http://intuitivedocs.github.io/DocumentationSiteThemes/"
 fixedNav: 'false'
 theme: grey
+contentsref: "/DocumentationSiteThemes/content/" 
 
 # collections
 collections:

@@ -1,34 +1,40 @@
 <div class="catbloc-collection">
 
-{% for collection in site.collections %}
-
-  {% if collection.label != 'posts' %}
-     <div class="catbloc" id="{{ category | remove:' ' }}">
+     <div class="catbloc" id="">
           
-            <ul class="sidebar-post">
-
-            {% assign sortedPosts = collection.docs| sort: 'url' %}
-            {% for post in sortedPosts %}    
-
-            {% assign listclass = 'post' %}
-            {% assign spliturl = post.url | split: '/' %}
-            {% if spliturl.size == 4 %}
-                {% assign listclass = 'subpost' %}
-            {% elsif  spliturl.size == 5 %}
-                {% assign listclass = 'subsubpost' %}
-            {% elsif  spliturl.size == 6 %}
-                {% assign listclass = 'subsubsubpost' %}    
-            {% endif %}   
-                   <li class="{{listclass}} sidebar-subpost">
-                        <a href="{{ post.url | prepend: site.baseurl  }}">
-                         {{post.title}}
+            <ul class="sidebar-post">       
+               
+                   <li class="post sidebar-subpost">
+                        <a href="{{ site.contentsref }}Code%20Review">
+                         Code Review
                         </a>
                   </li>  
-              {% endfor %}          
+                  
+                   <li class="post sidebar-subpost">
+                        <a href="/DocumentationSiteThemes/content/Jekyll">
+                         Jekyll
+                        </a>
+                  </li>  
+                  
+                   <li class="subpost sidebar-subpost">
+                        <a href="/DocumentationSiteThemes/content/Jekyll-subtopics/Example-of-markdown-format">
+                         Exemplar markdown
+                        </a>
+                  </li>  
+
+                   <li class="post sidebar-subpost">
+                        <a href="/DocumentationSiteThemes/content/QA">
+                         QA
+                        </a>
+                  </li>  
+                  
+                   <li class="post sidebar-subpost">
+                        <a href="/DocumentationSiteThemes/content/Test%20Deployments">
+                         Test Deployments
+                        </a>
+                  </li>  
+                        
                </ul>
             </div>
-
-     {% endif %}
-{% endfor %}
 
 </div>
