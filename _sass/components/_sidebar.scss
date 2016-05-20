@@ -33,11 +33,32 @@
 
 				p {
 				margin-left:1rem;
+
+				:before {
+					content: "";
+				    position: absolute;
+				    width: 12px;
+				    height: 14px;
+				    margin-left: -18px;
+				    background-size: 60px 14px;
+				}
+
+					.icon-clipboard {
+
+					}
+					.icon-tick {
+					:before {
+						    background: url(http://intuitivedocs.github.io/DocumentationSiteThemes/favicon.ico?);    
+					}
+
+					}
+
 				}
 
 				li {
 				margin-left:2.5rem;
 				list-style:none;
+				padding-bottom:2rem;
 
 					ul {
 					margin-left:1.5rem;
