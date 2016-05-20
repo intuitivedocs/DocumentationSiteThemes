@@ -41,11 +41,30 @@
 					width: 14px;
 				    height: 14px;
 				    margin-left: -16px;
-				    background: url(https://stripe.com/favicon.ico);
 				    background-size: 14px 14px;
+
+				
+				}
+
+				.icon-clipboard {
+
+				&:before {
+
+				    background: url(https://stripe.com/favicon.ico);
+				}
+				}
+
+				.icon-tick {
+
+				&:before {
+
+				background: none;
 
 				}
 				}
+
+				}
+
 
 				li {
 				margin-left:2.5rem;
