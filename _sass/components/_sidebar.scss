@@ -33,9 +33,18 @@
 
 				p {
 				margin-left:1rem;
-				background: url(http://intuitivedocs.github.io/DocumentationSiteThemes/favicon.ico?);
-				background:no-repeat;
-				background-position: left top
+				
+				&:before {
+					content:"";
+					position:absolute;
+					width: 12px;
+				    height: 14px;
+				    margin-left: -18px;
+				    background: url(http://intuitivedocs.github.io/DocumentationSiteThemes/favicon.ico?);
+				    background-size: 60px 14px;
+
+				}
+
 
 				}
 
