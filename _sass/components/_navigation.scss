@@ -4,10 +4,10 @@
 
 .c-navigation {
 background:none;
+padding:1rem;
   
   .c-navigation__container {
     height:auto;
-    padding:0.5rem;
 
   }
 
@@ -31,6 +31,7 @@ background:none;
   font-weight: bold;
   color:$c__title-text-colour;
   font-size:2rem;
+  float:right;
   }
 
   }
