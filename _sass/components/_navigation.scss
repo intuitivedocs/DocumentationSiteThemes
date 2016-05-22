@@ -23,12 +23,15 @@ background:none;
   }
 
   .c-navigation__title {
-  font-size:2rem;
-  margin-top:1.1rem;
-  font-weight: bold;
-  color:$c__title-text-colour;
+  margin-top:1.1rem;  
   max-width:80rem;
   width:80rem;
+
+  a {
+  font-weight: bold;
+  color:$c__title-text-colour;
+  font-size:2rem;
+  }
 
   }
 
