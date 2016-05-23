@@ -27,7 +27,6 @@
 			color:#008cdd;
 			}
 
-
 			.sidebar-post{
 
 				background:$c__sidebar-background;
@@ -38,8 +37,10 @@
 				list-style:none;
 				height: 100%;
 
-				p {
-				margin-left:2.5rem;
+				h4 {
+				margin-left:1rem;
+				color:$c__title-text-colour;
+				font-weight:normal;
 				
 				&:before {
 					content:"";
@@ -49,57 +50,6 @@
 				    margin-left: -16px;
 				    background-size: 14px 14px;				
 				}
-
-				&.icon-calender:before {
-				    background: url(http://intuitivedocs.github.io/DocumentationSiteThemes/images/icons/calender.png);
-				    background-size: 14px 14px;	
-				}
-				
-
-				&.icon-contract:before {
-					background: url(http://intuitivedocs.github.io/DocumentationSiteThemes/images/icons/contract.png);
-				    background-size: 14px 14px;	
-				}
-				
-				&.icon-document:before {
-					background: url(http://intuitivedocs.github.io/DocumentationSiteThemes/images/icons/document.png);
-				    background-size: 14px 14px;	
-				}
-				
-				&.icon-flag:before {
-					background: url(http://intuitivedocs.github.io/DocumentationSiteThemes/images/icons/flag.png);
-				    background-size: 14px 14px;	
-				}
-				
-				&.icon-flight:before {
-					background: url(http://intuitivedocs.github.io/DocumentationSiteThemes/images/icons/flight.png);
-				    background-size: 14px 14px;	
-				}
-				
-				&.icon-folder:before {
-					background: url(http://intuitivedocs.github.io/DocumentationSiteThemes/images/icons/folder.png);
-				    background-size: 14px 14px;	
-				}
-				
-				&.icon-graph:before {
-					background: url(http://intuitivedocs.github.io/DocumentationSiteThemes/images/icons/graph.png);
-				    background-size: 14px 14px;	
-				}
-				
-				&.icon-hotel:before {
-					background: url(http://intuitivedocs.github.io/DocumentationSiteThemes/images/icons/hotel.png);
-				    background-size: 14px 14px;	
-				}
-				
-				&.icon-info:before {
-					background: url(http://intuitivedocs.github.io/DocumentationSiteThemes/images/icons/info.png);
-				    background-size: 14px 14px;	
-				}
-
-				&.icon-misc:before {
-					background: url(http://intuitivedocs.github.io/DocumentationSiteThemes/images/icons/misc.png);
-				    background-size: 14px 14px;	
-				}			
 
 				}
 
