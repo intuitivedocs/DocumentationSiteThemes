@@ -26,6 +26,7 @@
 
 .c-main {
   min-height:86vh;
+  position: relative;
 }
 
 .c-article__main {
@@ -37,7 +38,8 @@
   padding:3rem;
   padding-top:1.5rem;
   border-radius:0.5rem;
-  display:table-cell;
+  display:block;
+  margin-left:21rem;
 
   h1 {
   padding-top:2.75rem;

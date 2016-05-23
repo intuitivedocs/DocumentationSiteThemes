@@ -6,8 +6,10 @@
 	.catbloc-collection {
 
 		display: table-cell;
-		position: relative;
+		position: absolute;
 		width: 22rem;
+		top:0.5rem;
+		bottom:0.5rem;
 
 		.catbloc{
 
@@ -34,6 +36,7 @@
 				border-bottom-left-radius:0.5rem;
 				padding:1rem 0;
 				list-style:none;
+				height: 100%;
 
 				p {
 				margin-left:2.5rem;
