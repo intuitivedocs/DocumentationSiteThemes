@@ -25,6 +25,11 @@
 
 			a{
 			color:#008cdd;
+
+			.toDo {
+					color: lightslategrey;
+					}
+
 			}
 
 			.sidebar-post{
@@ -64,35 +69,15 @@
 				list-style:none;
 				padding:0.5rem 0;
 
-				a {
-				.toDo {
-					color: lightslategrey;
-					}
-					}
-
-
 					ul {
 					margin-left:1.5rem;
 					list-style:none;
-					padding-top:0.75rem;
-
-					a {
-					.toDo {
-					color: lightslategrey;
-					}
-					}
+						padding-top:0.75rem;
 
 						li {
 						margin-left:1.5rem;
 						list-style:none;
 						padding-top:0.75rem;
-
-						a{
-						.toDo {
-						color: lightslategrey;
-						}
-						}
-
 						}
 					}
 				}
