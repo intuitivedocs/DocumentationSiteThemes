@@ -64,15 +64,29 @@
 				list-style:none;
 				padding:0.5rem 0;
 
+				.toDo {
+					color: lightslategrey;
+					}
+
+
 					ul {
 					margin-left:1.5rem;
 					list-style:none;
-						padding-top:0.75rem;
+					padding-top:0.75rem;
+
+					.toDo {
+					color: lightslategrey;
+					}
 
 						li {
 						margin-left:1.5rem;
 						list-style:none;
 						padding-top:0.75rem;
+
+						.toDo {
+						color: lightslategrey;
+						}
+
 						}
 					}
 				}
